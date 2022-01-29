@@ -1,0 +1,18 @@
+.navbar {
+  &-collapse {
+    padding-left: 10rem;
+  }
+  &-image {
+    margin-left: 22px;
+    padding-left: 150px;
+  }
+  .btn-outline-dark {
+    color: #ffffff;
+    border-color: #f8f4f4;
+    background-color: rgb(3, 167, 3);
+  }
+  .active {
+    color: $green;
+    text-underline-position: below;
+  }
+}

@@ -1,0 +1,25 @@
+.detail-container {
+  position: relative;
+  width: 50.5rem;
+  p,
+  ul {
+    list-style: none;
+    font-size: 16px;
+    padding-bottom: 2.3125rem;
+  }
+  h3 {
+    color: #2a2a72;
+  }
+  ul li {
+    &::before {
+      content: "\2022";
+      color: $green;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+      height: 8px;
+    }
+    padding-top: 1rem;
+  }
+}

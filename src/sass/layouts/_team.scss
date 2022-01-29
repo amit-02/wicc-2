@@ -1,0 +1,17 @@
+.team-container {
+  p {
+    font-size: 24px;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+    color: #2a2a72;
+  }
+
+  &-team-title {
+    font: size 32px;
+  }
+
+  &-image {
+    width: 152px;
+    height: 152px;
+  }
+}

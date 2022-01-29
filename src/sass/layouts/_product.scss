@@ -1,0 +1,45 @@
+.product-section {
+  &-navbar-image {
+    padding-left: 22rem;
+  }
+  p {
+    padding-left: 4.5rem;
+  }
+  h3,
+  h1 {
+    color: #2a2a72;
+    padding-left: 4.5rem;
+    &::after {
+      padding-bottom: 32px;
+    }
+  }
+  &-description {
+    position: absolute;
+    width: 31rem;
+    height: 6.1875rem;
+    left: 21.625rem;
+    top: 29.4375rem;
+    font-size: 22px;
+    line-height: 150%;
+  }
+}
+p {
+  padding-bottom: 1.5rem;
+}
+.table {
+  &-bordered {
+    border-radius: 10px 10px 20px 20px;
+  }
+
+  &-title {
+    color: white;
+    background-color: $green;
+  }
+  tr,
+  td {
+    box-shadow: inset 0px -1px 0px #d2d2d6;
+  }
+  i.bi-check-circle-fill {
+    color: $green;
+  }
+}
